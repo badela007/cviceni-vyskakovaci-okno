@@ -1,5 +1,6 @@
 body {
   font: 16px/1.5 sans-serif;
+
 }
 
 .modal {
@@ -9,22 +10,45 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 100px;
 }
 
 button {
   width: 80px;
   height: 25px;
+  position: absolute;
+
+
 }
 
 .exit {
   color: black;
   width: 30px;
   border-radius: 3px;
+  right: 0;
+  top: 0;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  bottom: 10px;
+  left: calc(50% - 80px / 2)
+}
+
+.help {
+  width: 200px;
+  height: 100px;
+  color: black;
+  background-color: lightsalmon;
+  font-size: 20px;
+  border: solid;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+
 }
 
 /* sem přijdou tvoje styly */
